@@ -1,0 +1,77 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: lightblue;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 0.75rem 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+h4 {
+  margin-top: 100px;
+}
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+nav {
+  background: lightslategrey;
+}
+
+nav ul a {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#messages ul li:hover {
+  background: lightyellow;
+}
+
+#messages ul li a {
+  cursor: pointer;
+}
+
+#bookings table {
+  background: #f4f4f4;
+}
+
+#bookings table tbody tr:hover {
+  background: lightyellow;
+}
+
+#bookings table tr th:last-child,
+#bookings table tr td:last-child {
+  float: right;
+  display: flex;
+}
+
+#bookings table i {
+  cursor: pointer;
+}
+
+#bookings table button {
+  margin-left: 10px;
+}
+
+#bookings .fa-pen {
+  color: greenyellow;
+}
+
+#bookings .fa-trash-alt {
+  color: red;
+}
